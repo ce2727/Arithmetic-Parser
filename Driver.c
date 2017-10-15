@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "RDP.h"
+#include "Calculator.h"
 
 int main(){
+
   //Expression Storage
 	char expression[100];
   //Menu Readout
@@ -19,4 +20,7 @@ int main(){
 	look_ahead = expression;
 	parseTree = ExpressionE();
   Tree_print(parseTree,1,0);
+	printf("\n");
+	printf("----------------------Answer----------------------\n");
+	printf("%d\n",calculate(parseTree));
 }
