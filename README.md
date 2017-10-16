@@ -1,5 +1,5 @@
 # Arithmetic-Parser
-Creates a parse tree based on user input, then evaluates it, returning an answer
+Creates a parse tree using a recursive decent parse algorithm, then evaluates it. As well, it runs a table based parse on the expression to see if it applies to the grammar.
 
 Grammars derived from https://www.cs.rochester.edu/~nelson/courses/csc_173/grammars/parsing.html
 
